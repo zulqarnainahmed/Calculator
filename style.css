@@ -1,0 +1,56 @@
+.main{
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 200px;
+    height: 220px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.text{
+width: 93%;
+height: 30px;
+box-shadow: 1px 1px 1px 1px black;
+margin: 2px;
+background-color: darkblue;
+}
+.clear{
+    width: 43px;
+    margin-left: 3px;
+}
+.btn{
+    width: 42px;
+    height: 20px;
+    margin-left: 3px;
+    margin-top: 4px;
+    
+}
+.btn:hover,.btn1:hover {background-color: lightskyblue}
+
+.btn:active , .btn1:active{
+  background-color: blue; !
+  box-shadow: 0 5px blueviolet;
+  transform: translateY(4px);
+}
+
+.clear:hover {background-color: lightsalmon}
+
+.clear:active {
+  background-color: red; !
+  box-shadow: 0 5px blueviolet;
+  transform: translateY(4px);
+}
+
+.btn1{
+    width: 46%;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.btnOpps {
+  color: white;
+  background-color: #ff9933;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  }
