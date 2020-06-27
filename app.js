@@ -10,11 +10,7 @@ function getResult() {
     var result = document.getElementById("result")
     result.value = eval(result.value)
 }
-// function power_function(num) {
-//     flag += 1;
-//     result.value += Math.pow(num, 2);
-   
-// }
+
 function getSqRoot(){
     var result = document.getElementById("result")
     result.value = Math.sqrt(result.value)
@@ -42,7 +38,8 @@ function getTan(){
 }
 function getISin(){
     var result = document.getElementById("result")
-    result.value = Math.asin(result.value * 180/Math.PI )
+    result.value = Math.asin(result.value)
+    result.value = result.value * 180 / Math.PI
 }
 function getICos(){
     var result = document.getElementById("result")
@@ -52,7 +49,8 @@ function getICos(){
 
 function getITan(){
     var result = document.getElementById("result")
-    result.value = Math.atan(result.value * 180/Math.PI )
+    result.value = Math.atan(result.value )
+    result.value = result.value * 180 / Math.PI
 }
 
 function getLog(){

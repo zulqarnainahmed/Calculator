@@ -11,7 +11,7 @@ width: 93%;
 height: 30px;
 box-shadow: 1px 1px 1px 1px black;
 margin: 2px;
-background-color: darkblue;
+background-color: lightsteelblue;
 }
 .clear{
     width: 43px;
@@ -46,11 +46,7 @@ background-color: darkblue;
     margin-top: 2px;
 }
 
-.btnOpps {
-  color: white;
-  background-color: #ff9933;
-  font-size: 14px;
-  margin: auto;
-  width: 50px;
-  height: 25px;
+  .center {
+    margin: 0 auto;
+    padding: 15%;
   }
